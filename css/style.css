@@ -91,7 +91,10 @@ height: 40px;
 background: #FFFFFF;
 border-radius: 20px;
 }
-.anchor:hover{
+.anchorLink:hover{
+    background-color: #C7133E;
+}
+.anchorLinkSecond:hover{
     background-color: #ECEBEB;
 }
 
