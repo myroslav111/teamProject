@@ -12,9 +12,14 @@ h4{
 }
 ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
+
 }
 li{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 img{
     width: 100%;
@@ -180,7 +185,7 @@ background: #ECEBEB;
     padding: 15px;
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .buttonFooter {
@@ -254,4 +259,77 @@ margin-right: 10px;
 }
 
 
-/*    <!-- Swiper --> */
+/*    <!-- mobile menu --> */
+.mobileMenu {
+}
+.mobileMenu__container {
+    padding: 23px 20px;
+    background-color: #E17992;
+    width: 250px;
+    height: 502px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobileMenu__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 15px;
+    margin-bottom: 23px;
+    margin-left: auto;
+}
+
+.mobileMenu__buttonClose {
+    
+}
+
+.mobileMenu__buttonBuyNow {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.mobileMenu__nav {
+}
+.mobileMenu__navBloc {
+}
+.mobileMenu__list {
+}
+.mobileMenu__item {
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    position: relative;
+}
+
+.mobileMenu__item ::before{
+content: "";
+position: absolute;
+left: -20px;
+top: 0;
+width: 116%;
+height: 1px;
+background-color: #E18298;
+}
+
+.mobileMenu__item:last-child::after{
+content: "";
+position: absolute;
+left: -20px;
+bottom: 0;
+width: 116%;
+height: 1px;
+background-color: #E18298;
+    
+}
+
+.mobileMenu__link {
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
