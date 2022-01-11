@@ -1,254 +1,253 @@
-body{
-    /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"); */
+body {
+  /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"); */
 }
-h1{
-    margin: 0;
+h1 {
+  margin: 0;
 }
-h2{
-    margin: 0;
+h2 {
+  margin: 0;
 }
-ul{
-    list-style: none;
+h3 {
+  margin: 0;
+  color: #c7133e;
 }
-li{
-    list-style: none;
+ul {
+  list-style: none;
 }
-img{
-    width: 100%;
-    display: block;
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+img {
+  width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
 }
 .title {
-    font-family: 'Titan One', cursive;
-    color: blue;
+  font-family: "Titan One", cursive;
+  color: blue;
 }
 
 /* button Buy now from header*/
-.backgroundButtonHeroHeader{
-    background-color: #FFB8CA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
+.backgroundButtonHeroHeader {
+  background-color: #ffb8ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
 .button {
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 21px;
-color: #D41443;
-border: none;
-width: 209px;
-height: 44px;
-background: #FFFFFF;
-border-radius: 22px;
-text-align: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d41443;
+  border: none;
+  width: 209px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  text-align: center;
 }
 
-.button:hover{
-    background-color: #ECEBEB;
+.button:hover {
+  background-color: #ecebeb;
 }
 
-.button::after{
-    content: '';
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-right: 2px solid #D41443;
-    border-top: 2px solid #D41443;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.button::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #d41443;
+  border-top: 2px solid #d41443;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover::after{
-    transform: rotate(225deg);
+.button:hover::after {
+  transform: rotate(225deg);
 }
 
-.button__text{
-    margin-right: 10px;
+.button__text {
+  margin-right: 10px;
 }
-
 
 /*    anchorLink btn from hero   */
-.backgroundLinkHero{
-    background-color: #FFB8CA;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+.backgroundLinkHero {
+  background-color: #ffb8ca;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
 
-.anchorLink{
-font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #FFFFFF;
-width: 104px;
-height: 40px;
-background: #D41443;
-border-radius: 20px;
+.anchorLink {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 104px;
+  height: 40px;
+  background: #d41443;
+  border-radius: 20px;
 }
 
-.anchorLinkSecond{
-    font-family: DM Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #D41443;
-width: 138px;
-height: 40px;
-background: #FFFFFF;
-border-radius: 20px;
+.anchorLinkSecond {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d41443;
+  width: 138px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px;
 }
 
-.anchorLink:hover{
-    background-color: #C7133E;
+.anchorLink:hover {
+  background-color: #c7133e;
 }
 
-.anchorLinkSecond:hover{
-    background-color: #ECEBEB;
+.anchorLinkSecond:hover {
+  background-color: #ecebeb;
 }
-
 
 /* btn from about */
 .backgroundButtonAbout {
-    background: #FFF5F6;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+  background: #fff5f6;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 .buttonAbout {
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 18px;
-color: #D41443;
-width: 176px;
-height: 44px;
-background: #FFFFFF;
-border-radius: 22px;
-border: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #d41443;
+  width: 176px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
 }
 
-.buttonAbout::after{
-    content: '';
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-right: 2px solid #D41443;
-    border-top: 2px solid #D41443;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.buttonAbout::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #d41443;
+  border-top: 2px solid #d41443;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.buttonAbout:hover::after{
-    transform: rotate(225deg);
+.buttonAbout:hover::after {
+  transform: rotate(225deg);
 }
-.buttonAbout:hover{
-background: #ECEBEB;
+.buttonAbout:hover {
+  background: #ecebeb;
 }
 
 .button__textAbout {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-
 /* btn in footer */
-.backgroundButtonFooter{
-    background: #FFF5F6;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 150px;
+.backgroundButtonFooter {
+  background: #fff5f6;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
 }
 
 .buttonFooter {
-width: 161px;
-height: 44px;
-background: #D41342;
-border-radius: 22px;
-border: none;
+  width: 161px;
+  height: 44px;
+  background: #d41342;
+  border-radius: 22px;
+  border: none;
 }
 
-.buttonFooter::after{
-    content: '';
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-right: 2px solid #FFFFFF;;
-    border-top: 2px solid #FFFFFF;;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.buttonFooter::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttonFooter:hover::after{
-    transform: rotate(225deg);
+.buttonFooter:hover::after {
+  transform: rotate(225deg);
 }
 
 .button__textFooter {
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 21px;
-color: #FFFFFF;
-margin-right: 3px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-right: 3px;
 }
 
 .buttonFooterSecond {
-    width: 161px;
-height: 44px;
-background: #FFFFFF;
-border-radius: 22px;
-border: none;
+  width: 161px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
 }
 
-.buttonFooterSecond::after{
-    content: '';
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-right: 2px solid #D41443;
-    border-top: 2px solid #D41443;
-    transform: rotate(45deg);
-    border-radius: 2px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.buttonFooterSecond::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #d41443;
+  border-top: 2px solid #d41443;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttonFooterSecond:hover::after{
-    transform: rotate(225deg);
+.buttonFooterSecond:hover::after {
+  transform: rotate(225deg);
 }
 
 .button__textFooterSecond {
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 21px;
-color: #D41443;
-margin-right: 10px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d41443;
+  margin-right: 10px;
 }
-
 
 /*    <!-- Swiper --> */
