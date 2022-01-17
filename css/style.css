@@ -1,4 +1,5 @@
 body{
+    padding: 15px;
     /* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"); */
 }
 h1{
@@ -40,7 +41,10 @@ a{
 .title {
     font-family: 'Titan One', cursive;
     color: red;
-
+    text-align: center;
+}
+.title:hover{
+    cursor: pointer;
 }
 
 /* button Buy now from header*/
@@ -65,10 +69,13 @@ height: 44px;
 background: #FFFFFF;
 border-radius: 22px;
 text-align: center;
+
+transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
 }
 
 .button:hover{
     background-color: #ECEBEB;
+    width: 240px;
 }
 
 .button::after{
@@ -336,7 +343,44 @@ color: #FFFFFF;
 }
 
 
-
+.circle {
+    background: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+  }
+  
+  @-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
 
 
 
