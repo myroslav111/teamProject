@@ -11,14 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
         rel="stylesheet">
-
+       
     <link rel="stylesheet" href="./css/style.css">
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
 
-
+ <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
 
 </head>
@@ -80,6 +83,65 @@
     <a href="google.com"></a>
     <div class="finish"></div>
     <div class="close"></div>
+
+
+
+    <section class="customer-reviews__section">
+        <div class="swiper mySwiper">
+        <div class="container customer-reviews__container swiper-wrapper">
+
+            <div class="customer-reviews__filling swiper-slide">
+                <picture class="customer-reviews__picture">
+                    <source srcset="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg   1x,
+                                        images/CustomerReviews/CustomerReviews1@2x_jpg_desktop.jpg 2x" />
+                    <img src="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg" alt="довольный клиент" />
+                </picture>
+                <h2 class="visually-hidden customer-reviews__h2">Отзывы клиентов</h2>
+                <div class="customer-reviews__div-text">
+                    <p class="customer-reviews__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                        Aliquam sem. In hendrerit nulla quam
+                        nunc, accumsan
+                        congue. Lorem ipsum primis in nibh vel risus.</p>
+                </div>
+                <div class="customer-reviews__name">Emily, Los Angeles</div>
+            </div>
+            <div class="customer-reviews__filling swiper-slide">
+                <picture class="customer-reviews__picture">
+                    <source srcset="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg   1x,
+                                        images/CustomerReviews/CustomerReviews1@2x_jpg_desktop.jpg 2x" />
+                    <img src="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg" alt="довольный клиент" />
+                </picture>
+                <h2 class="visually-hidden customer-reviews__h2">Отзывы клиентов</h2>
+                <div class="customer-reviews__div-text">
+                    <p class="customer-reviews__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                        Aliquam sem. In hendrerit nulla quam
+                        nunc, accumsan
+                        congue. Lorem ipsum primis in nibh vel risus.</p>
+                </div>
+                <div class="customer-reviews__name">Emily, Los Angeles</div>
+            </div>
+            <div class="customer-reviews__filling swiper-slide">
+                <picture class="customer-reviews__picture">
+                    <source srcset="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg   1x,
+                                        images/CustomerReviews/CustomerReviews1@2x_jpg_desktop.jpg 2x" />
+                    <img src="images/CustomerReviews/CustomerReviews1_jpg_desktop.jpg" alt="довольный клиент" />
+                </picture>
+                <h2 class="visually-hidden customer-reviews__h2">Отзывы клиентов</h2>
+                <div class="customer-reviews__div-text">
+                    <p class="customer-reviews__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                        Aliquam sem. In hendrerit nulla quam
+                        nunc, accumsan
+                        congue. Lorem ipsum primis in nibh vel risus.</p>
+                </div>
+                <div class="customer-reviews__name">Emily, Los Angeles</div>
+            </div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </section>
+
+    
     <!-- 
 <div class="menu-container"> 
     <div class="menu"> 
@@ -190,7 +252,17 @@ close_modal.onclick = function() { // клик на закрытие
         body.classList.remove('body_block'); // возвращаем прокрутку
     }, 500);
 };</script> -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 
 </body>
 

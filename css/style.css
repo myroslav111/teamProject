@@ -385,6 +385,108 @@ color: #FFFFFF;
 
 
 
+  /*  */
+  .customer-reviews__picture > img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  
+  .customer-reviews__div-text {
+    position: relative;
+      padding: 47px 89px 39px 87px;
+    max-width: 926px;
+  margin: 0 auto;
+  background: #FAFAFA;
+  }
+  
+  .customer-reviews__text {
+  font-family: DM Sans;
+  position: relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  text-align: center;
+      color: #000000;
+      background-image: repeating-linear-gradient(hsla(0,0%,100%,0),hsla(0,0%,100%,0) 29px,#e1e1e1 0,#e1e1e1 30px);
+      letter-spacing: .04em;
+  }
+  
+  
+  
+  .customer-reviews__name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.86;
+  text-align: center;
+  position:  relative;
+  color: #000000;
+  margin: 0 auto;
+  }
+  
+.customer-reviews__picture{
+
+}
+.customer-reviews__filling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.customer-reviews__section {
+    position: relative;
+    height: 100%;
+  }
+
+  .customer-reviews__section {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
 /* 
 .menu-container * {
 	box-sizing: border-box;
